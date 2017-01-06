@@ -34,16 +34,14 @@ h2.sushi {
   border: 1px solid black;
   background-color: #d3d3d3;
   position: relative;
-  height: 250px;
-  overflow: auto;
 }
 
 .menu-item-title {
   border: 1px solid black;
   text-align: left;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -1px;
+  right: -1px;
   padding: 2px 20px 2px 20px;
   width: 33.33%;
   text-align: center;
@@ -51,10 +49,8 @@ h2.sushi {
 }
 
 .menu-item-description {
-  margin: 10px;
-  position: absolute;
-  top: 50px;
-  font-size: ;
+  margin: 50px;
+  padding: 10px;
 }
 
 /* Simple Responsive Framework. */
